@@ -4,9 +4,11 @@
  */
 package Data;
 import CRUD.Koneksi;
+import GUI.FrameUtama;
 import peternakan.peternak;
 import java.util.Scanner;
 import java.util.ArrayList;
+
 
 
 /**
@@ -17,7 +19,11 @@ import java.util.ArrayList;
 
 public class main {
     public static void main(String[] args) {
-        Koneksi db = new Koneksi ();
+        
+        new FrameUtama().setVisible(true);
+        
+        
+       // Koneksi db = new Koneksi ();
         //peternak peternak1 = new peternak("1", "Zainal", "Handil Bakti", "Zainal@gmail.com", "ABC123");
         
         //System.out.println("ID Peternak: " + peternak1.getIdPeternak());
@@ -31,7 +37,7 @@ public class main {
       //db.ubahpeternak("2", "Muhammad", "087815957984", "muhammad@gmail.com", "4569");
       //db.hapuspeternak("3");
       //db.caripeternak("1");
-      db.datapeternak();
+      //db.datapeternak();
       
       
       

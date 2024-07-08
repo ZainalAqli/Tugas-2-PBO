@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package peternakan;
-
+import java.util.ArrayList;
 /**
  *
  * @author HP
